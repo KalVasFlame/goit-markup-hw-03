@@ -1,0 +1,25 @@
+.portfolio-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--btn-bg-color);
+}
+.portfolio-nav-list button:hover,
+.portfolio-nav-list button:focus {
+  background-color: var(--accent-color);
+  color: var(--major-white-color);
+}
+
+.examples-list h3 {
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+.examples-list p {
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+}
