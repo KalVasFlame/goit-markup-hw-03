@@ -2,7 +2,7 @@
 /* Hero */
 
 .hero {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   text-align: center;
   margin-bottom: 94px;
 }
@@ -27,12 +27,23 @@
 /* Hero */
 /* Feature */
 .feature {
-  outline: 1px solid yellow;
+  /* outline: 1px solid yellow; */
   margin-bottom: 94px;
 }
 .feature-title {
   display: none;
 }
+.feature-list {
+  display: flex;
+}
+
+.feature-list .list-item {
+  width: 270px;
+}
+.feature-list .list-item + .list-item {
+  margin-left: 30px;
+}
+
 .feature-list h3 {
   font-weight: 700;
   font-size: 14px;
@@ -49,7 +60,7 @@
 /* What we do */
 .what-we-do {
   margin-bottom: 94px;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 .what-we-do-title {
   font-weight: 700;
@@ -59,10 +70,19 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+.what-we-do-list {
+  display: flex;
+}
+.what-we-do-list .list-item + .list-item {
+  margin-left: 30px;
+}
+
 /* What we do */
 /* Our team */
 .our-team {
-  outline: 1px solid blue;
+  text-align: center;
+  background-color: var(--second-minor-bg-color);
+  /* outline: 1px solid blue; */
 }
 
 .our-team-title {
@@ -74,16 +94,37 @@
   padding-top: 94px;
   margin-bottom: 50px;
 }
-.our-team-list h3 {
+.our-team-list {
+  display: flex;
+  padding-bottom: 95px;
+}
+
+.our-team-list .list-item + .list-item {
+  margin-left: 30px;
+}
+.our-team-list .list-item {
+  width: 270px;
+  background: var(--major-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list .teammate-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18em;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
 }
-.our-team-list p {
+.our-team-list .teammate-job {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 /* Our team */
 /* Sections */
@@ -107,6 +148,6 @@
 }
 /* bnt */
 
-footer {
+/* footer {
   outline: 1px solid pink;
-}
+} */
