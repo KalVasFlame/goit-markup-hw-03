@@ -38,6 +38,7 @@
 .examples-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 65px;
 }
 .examples-list .list-item {
   margin-bottom: 30px;
@@ -53,7 +54,7 @@
   border: 1px solid #eeeeee;
   width: 370px;
 }
-.examples-list .list-item:not(:last-child) {
+.examples-list .list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 .examples-list p {
