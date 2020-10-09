@@ -74,8 +74,8 @@ button:focus {
 
 /* Header */
 .header {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   /* outline: 1px solid pink; */
 }
 .header-wrapper,
@@ -166,6 +166,9 @@ button:focus {
 }
 /* Header */
 /* Footer */
+.footer {
+  padding-bottom: 60px;
+}
 .footer-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -197,8 +200,5 @@ button:focus {
 .footer-link.adress,
 .footer-link.mail {
   margin-bottom: 9px;
-}
-.footer-link.tel {
-  padding-bottom: 60px;
 }
 /* Footer */
