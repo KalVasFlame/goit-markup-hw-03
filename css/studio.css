@@ -5,6 +5,7 @@
   /* outline: 1px solid red; */
   text-align: center;
   padding-bottom: 94px;
+  padding-top: 200px;
 }
 .hero-title {
   color: var(--major-white-color);
@@ -13,7 +14,6 @@
   line-height: 1.36em;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   margin-bottom: 30px;
 }
 .hero-btn {
@@ -82,6 +82,7 @@
 /* Our team */
 .our-team {
   padding-bottom: 94px;
+  padding-top: 94px;
   text-align: center;
   background-color: var(--second-minor-bg-color);
   /* outline: 1px solid blue; */
@@ -93,7 +94,6 @@
   line-height: 1.2em;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .our-team-list {

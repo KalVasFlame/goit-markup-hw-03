@@ -78,14 +78,14 @@ button:focus {
   padding-bottom: 25px;
   /* outline: 1px solid pink; */
 }
-.header-wrapper,
-.wrapper {
+.header-container,
+.container {
   margin: 0 auto;
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
 }
-.header-wrapper {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -167,6 +167,7 @@ button:focus {
 /* Header */
 /* Footer */
 .footer {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-logo {
@@ -177,7 +178,6 @@ button:focus {
   font-size: 26px;
   line-height: 1.2em;
   letter-spacing: 0.03em;
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 .footer-logo > span {
